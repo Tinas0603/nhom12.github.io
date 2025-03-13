@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    padding-top: 70px;
+    /* Khoảng cách cho navbar fixed */
+}
+
+.navbar {
+    background-color: #343a40 !important;
+    transition: background-color 0.3s;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #007bff;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.avatar {
+    width: 150px;
+    /* Điều chỉnh kích thước ảnh theo ý muốn */
+    height: 150px;
+    /* Đảm bảo ảnh luôn hình vuông */
+    object-fit: cover;
+    /* Cắt ảnh để giữ tỷ lệ khung hình */
+    border-radius: 50%;
+    /* Bo tròn ảnh */
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline li {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.timeline li:hover {
+    transform: translateY(-5px);
+}
+
+.skill-card,
+.project-card {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-card:hover,
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+body.dark-mode .navbar {
+    background-color: #2c2c2c !important;
+}
+
+body.dark-mode .bg-light {
+    background-color: #2c2c2c !important;
+}
+
+body.dark-mode .timeline li,
+body.dark-mode .skill-card,
+body.dark-mode .project-card {
+    background-color: #333333;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .avatar {
+    border-color: #333;
+}

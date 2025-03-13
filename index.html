@@ -4,98 +4,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Introduction - Group 12</title>
+    <title>Meet Our Team - Group 12</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Header -->
-    <header class="bg-primary text-light py-4">
+    <!-- Header Section -->
+    <header class="bg-primary text-white text-center py-5">
         <div class="container">
-            <h1 class="text-center display-4">Team Members - Group 12 - 21DTHD6 - Công cụ</h1>
+            <h1 class="display-4">Meet Our Team</h1>
+            <p class="lead">We are a passionate group of software engineering students.</p>
         </div>
     </header>
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <button id="theme-toggle" class="btn btn-outline-secondary">
-                        Toggle <i class="bi bi-moon"></i>
+                        Switch Theme <i class="bi bi-moon"></i>
                     </button>
                 </li>
             </ul>
-        </div>
+        </div> -->
     </nav>
 
-    <!-- Group Introduction Section -->
-    <div class="container mt-5">
-        <div class="text-center mb-5">
-            <p class="lead">We are a group of software engineering students. Below are the details of our team members.
-            </p>
+    <!-- Team Members Section -->
+    <div class="container mt-5 mb-5">
+        <div class="row text-center">
+            <h2 class="mb-4">Our Members</h2>
+            <div class="row text-center">
+                <h2 class="mb-4">Our Members</h2>
+                <!-- Member 1 -->
+                <div class="col-lg-3 col-md-3 col-sm-6 mb-4"> <!-- Ensure 3 on lg and md, 6 on sm -->
+                    <div class="card shadow-sm">
+                        <img src="assets/images/TienPham.jpg" class="card-img-top rounded-circle" alt="Phạm Vũ Tiến">
+                        <div class="card-body">
+                            <h5 class="card-title">Phạm Vũ Tiến</h5>
+                            <p class="card-text">MSSV: 2180608746</p>
+                            <a href="/students/PhamVuTien.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 2 -->
+                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="assets/images/ThuanTran.jpg" class="card-img-top rounded-circle"
+                            alt="Trần Công Thuận">
+                        <div class="card-body">
+                            <h5 class="card-title">Trần Công Thuận</h5>
+                            <p class="card-text">MSSV: 2180608740</p>
+                            <a href="/students/TranCongThuan.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 3 -->
+                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="assets/images/ThuyDuyen.jpg" class="card-img-top rounded-circle"
+                            alt="Nguyễn Thị Thuỳ Duyên">
+                        <div class="card-body">
+                            <h5 class="card-title">Nguyễn Thị Thuỳ Duyên</h5>
+                            <p class="card-text">MSSV: 2180608794</p>
+                            <a href="/students/thuyduyen.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 4 -->
+                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="assets/images/TuanTran.jpg" class="card-img-top rounded-circle" alt="Trần Trọng Tuấn">
+                        <div class="card-body">
+                            <h5 class="card-title">Trần Trọng Tuấn</h5>
+                            <p class="card-text">MSSV: 2180608187</p>
+                            <a href="/students/TranTrongTuan.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!-- Team Members Section -->
-        <div class="row">
-            <!-- Member Cards -->
-            <div class="col-md-3 mb-4">
-                <div class="card border-light shadow-sm">
-                    <img src="assets/images/TienPham.jpg" class="card-img-top" alt="Member 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Phạm Vũ Tiến</h5>
-                        <p class="card-text">MSSV: 2180608746</p>
-                        <a href="PhamVuTien.html" class="btn btn-primary">View Details</a>
-                    </div>
-                </div>
+        <!-- Footer -->
+        <footer class="bg-light py-4 mt-5">
+            <div class="container text-center">
+                <p class="mb-0">&copy; 2023 Group 12. All rights reserved.</p>
             </div>
-            <div class="col-md-3 mb-4">
-                <div class="card border-light shadow-sm">
-                    <img src="assets/images/ThuanTran.jpg" class="card-img-top" alt="Member 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Trần Công Thuận</h5>
-                        <p class="card-text">MSSV: 2180608740</p>
-                        <a href="member2.html" class="btn btn-primary">View Details</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="card border-light shadow-sm">
-                    <img src="assets/images/ThuyDuyen.jpg" class="card-img-top" alt="Member 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Nguyễn Thị Thuỳ Duyên</h5>
-                        <p class="card-text">MSSV: 2180608794</p>
-                        <a href="/students/thuyduyen.html" class="btn btn-primary">View Details</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="card border-light shadow-sm">
-                    <img src="assets/images/TuanTran.jpg" class="card-img-top" alt="Member 4">
-                    <div class="card-body">
-                        <h5 class="card-title">Trần Trọng Tuấn</h5>
-                        <p class="card-text">MSSV: 2180608187</p>
-                        <a href="member4.html" class="btn btn-primary">View Details</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </footer>
 
-    <!-- Footer -->
-    <footer class="bg-light py-3 mt-5">
-        <div class="container text-center">
-            <p>&copy; 2023 Group 12. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

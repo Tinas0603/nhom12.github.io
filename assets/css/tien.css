@@ -3,7 +3,6 @@ body {
     transition: background-color 0.3s, color 0.3s;
     margin: 0;
     padding-top: 70px;
-    /* Khoảng cách cho navbar fixed */
 }
 
 .navbar {
@@ -35,13 +34,9 @@ body {
 
 .avatar {
     width: 150px;
-    /* Điều chỉnh kích thước ảnh theo ý muốn */
     height: 150px;
-    /* Đảm bảo ảnh luôn hình vuông */
     object-fit: cover;
-    /* Cắt ảnh để giữ tỷ lệ khung hình */
     border-radius: 50%;
-    /* Bo tròn ảnh */
 }
 
 .timeline {

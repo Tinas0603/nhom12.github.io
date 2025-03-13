@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Phạm Vũ Tiến</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/tien.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Phạm Vũ Tiến</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">Giới thiệu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Học tập</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Kỹ năng</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Dự án</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Liên hệ</a></li>
+                <li class="nav-item">
+                    <button id="theme-toggle" class="btn btn-outline-light ml-2">
+                        Chuyển <i class="bi bi-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Giới thiệu</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="/assets/images/TienPham.jpg" alt="Phạm Vũ Tiến" class="img-fluid  avatar">
+                </div>
+                <div class="col-md-8">
+                    <h3>Phạm Vũ Tiến</h3>
+                    <p><strong>MSSV:</strong> 2180608746</p>
+                    <p><strong>Sở thích:</strong> Lập trình, nghe nhạc, chơi game, khám phá công nghệ mới.</p>
+                    <p><strong>Định hướng nghề nghiệp:</strong> Trở thành lập trình viên Full-stack hoặc chuyên gia
+                        AI/ML, xây dựng các sản phẩm công nghệ sáng tạo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Quá trình học tập</h2>
+            <ul class="timeline">
+                <li>
+                    <h5>Cơ sở dữ liệu</h5>
+                    <p>Học về thiết kế và quản lý cơ sở dữ liệu với SQL, NoSQL.</p>
+                </li>
+                <li>
+                    <h5>Lập trình hướng đối tượng</h5>
+                    <p>Nắm vững Java, thiết kế phần mềm theo mô hình OOP.</p>
+                </li>
+                <li>
+                    <h5>Dự án: Website nhóm</h5>
+                    <p>Phát triển website giới thiệu nhóm với HTML, CSS, JS.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Kỹ năng</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <h5>Lập trình</h5>
+                        <p>HTML, CSS, JavaScript, Python, Java</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <h5>Thiết kế UI/UX</h5>
+                        <p>Figma, Bootstrap, giao diện responsive</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <h5>AI/ML</h5>
+                        <p>Cơ bản về Machine Learning, TensorFlow</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Dự án cá nhân</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h5>Website Portfolio</h5>
+                        <p>Một trang portfolio cá nhân với thiết kế hiện đại, responsive.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h5>Ứng dụng quản lý công việc</h5>
+                        <p>Xây dựng bằng Python và Tkinter, hỗ trợ theo dõi tiến độ.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container text-center">
+            <h2 class="section-title">Liên hệ</h2>
+            <p><i class="bi bi-envelope"></i> Email: tienpham@example.com</p>
+            <p><i class="bi bi-linkedin"></i> LinkedIn: <a href="#">linkedin.com/in/tienpham</a></p>
+            <p><i class="bi bi-github"></i> GitHub: <a href="#">github.com/tienpham</a></p>
+            <p><i class="bi bi-file-earmark-text"></i> CV: <a href="#">Download CV</a></p>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assets/js/tien.js"></script>
+</body>
+
+</html>
